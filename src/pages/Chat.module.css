@@ -1,0 +1,42 @@
+/** @format */
+.messages_box {
+  border: 1px solid gray;
+  padding: 10px;
+  height: calc(100vh - 250px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.message_box {
+  background: rgb(251 251 251);
+  margin: 10px;
+  padding: 5px 20px;
+  width: max-content;
+  border-radius: 5px;
+}
+.message__ava_block {
+  display: flex;
+  align-items: center;
+}
+.message_box__img_box img {
+  width: 50px;
+  border-radius: 50%;
+}
+.message_box__name {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.message_box__text {
+  margin: 10px;
+}
+.input {
+  margin: 10px 0;
+  width: 100%;
+}
+.send_box {
+  display: flex;
+}
+.my_messsage {
+  align-self: flex-end;
+  background: #f5f5ff;
+}
